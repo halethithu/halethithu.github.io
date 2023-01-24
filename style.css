@@ -1,4 +1,11 @@
 body {
     background-color: coral;
     font-family: 'Lucida Sans';
+    <img src = "myPic.jpg" Alt = "this is my picture" />
+}
+
+h1{color:black;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
 }
