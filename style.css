@@ -24,6 +24,9 @@ nav {
     background-color: orangered;
     height: 20px;
     padding: 10px;
+    float: right;
+    padding: 20px;
+    margin: 10px
 }
 
 aside {
@@ -36,5 +39,19 @@ aside {
 
 section {
     background-color: coral;
+    padding: 20px;
+}
+
+article {
+    width: 30%;
+    float: left;
+    background-color: beige;
+    margin: 10px;
+}
+
+footer{
+    clear: both;
+    display: block;
+    text-align: center;
     padding: 20px;
 }
