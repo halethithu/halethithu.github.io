@@ -1,11 +1,19 @@
 body {
     background-color: coral;
     font-family: 'Lucida Sans';
-    <img src = "myPic.jpg" Alt = "this is my picture" />
 }
 
 h1{color:black;
     letter-spacing: 2px;
     text-decoration: underline;
 
+}
+
+header {
+    width: 100%
+    background-color: orange;
+    height: 200px;
+    padding: 20pt;
+    color: white;
+    text-align: center;
 }
