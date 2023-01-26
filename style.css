@@ -54,4 +54,10 @@ footer{
     display: block;
     text-align: center;
     padding: 20px;
+    height: 300px;
+    line-height: 300px;
+}
+
+img{
+    max-width: 100px;
 }
