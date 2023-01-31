@@ -1,0 +1,23 @@
+table{
+    border: 1px solid red;
+    background: gray;
+    padding: 20px;
+
+
+}
+tr{
+    border: red;
+} 
+td{
+    border: pink;
+} 
+
+.smartgoals{
+    background: gray;
+    color: white;
+    padding: 10px;
+}
+#tableDiv{
+    background: red;
+    color: white;
+}
