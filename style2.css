@@ -1,25 +1,33 @@
+body {
+    background-color: coral;
+    font-family: 'Lucida Sans';
+    font-size: 14px;
+    color: darkblue;
+}
+
 table{
-    border: 1px solid blue;
-    background: gray;
-    padding: 20px;
+    border: 1px solid brown;
+    background: paleturquoise;
+    padding: 10px;
 
 
 }
 tr{
-    border: blue;
+    border: brown;
 } 
 td{
-    border: pink;
+    border: brown;
 } 
 
 .smartgoals{
-    background: gray;
-    color: white;
+    
+    color: skyblue;
     padding: 10px;
 }
 #tableDiv{
-    background: gray;
-    color: blue;
+    
+    color: skyblue;
+    padding: 10px;
 }
 img{
     border: 5px solid brown;
@@ -27,4 +35,9 @@ img{
 
 h1,h2,h3,h4{
     color: navy;
+}
+img{
+    border: 5px solid green;
+    max-width: 150px;
+    border-radius: 50%;
 }
