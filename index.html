@@ -3,53 +3,89 @@
 
 <head>
     <title> Helen's Portfolio </title>
-    <meta name="description" content="My works at school on my path to learn about data mining.">
-    <meta name="author" content="Thi Thu Ha Le (AKA: Helen)">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="description" content="My works at school on my path to learn about data mining.">
+  <meta name="author" content="Thi Thu Ha Le (AKA: Helen)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+ </style>
+
 </head>
 
-
-
 <body>
-    <h1> Helen's Portfolio </h1>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     
-    <nav>
-        <a href="index.html"> Home </a>
-        <a href="index.html"> Page2 </a>
-        <a href="index.html" target="_blank"> Page3 </a>
-        <a href="bg" target="_blank"> Page3 </a>
-      </nav>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Helen's Portfolio</h1>
+        <p>I love to learn and try new things. Exploring data science is an iteresting journey. </p>
+      </div>
+    </div>
+      
+    <div class="container-fluid bg-3 text-center">    
+      <h3>Some of my Work</h3><br>
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Data Visualization - Power BI</p>
+          <img src="MoviesBI.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Data Reporting - SSRS</p>
+          <img src="SSRS_Alt.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3"> 
+          <p>Database Design - SSMS</p>
+          <img src="SSMS.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-3">
+          <p>ETL - SSIS</p>
+          <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+      </div>
+    </div><br>
+    
+   
+    <footer class="container-fluid text-center">
+        <p> &copy; Ha Le. All rights reserved.</p>
+    </footer>
+    
+    </body>
+    </html>
 
-
-<img src = "myPic.jpg" Alt = "this is my picture" />
-<h2>Hello There, </h2>
-<h3>Hello There, </h3>
-
-<h3>What I am learning: </h3>
-
-<ul>
-    <li> Data mining using SQL server 2019, Python, </li>
-    <li> Data Provision: ETL </li>
-    <li> Data visualizations: Excel, Power BI, SSRS, </li>
-</ul>
-
-<h3>Hello There, </h3>
-<ol>
-    <li> Data mining using SQL server 2019, Python, </li>
-    <li> Data Provision: ETL </li>
-    <li> Data visualizations: Excel, Power BI, SSRS, </li>
-</ol>
-
-<h4>Hello There, </h4>
-
-<i>I'm hosted with GitHub Pages.</i> <br>
-<b>Bold text.</b> <br>
-<u> This is underlined.</u>
-
-<p>I'm hosted with GitHub Pages.</p>
-
-
-
-</body>
-
-</html>
