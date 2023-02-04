@@ -1,9 +1,4 @@
-body {
-    background-color: coral;
-    font-family: 'Lucida Sans';
-    font-size: 14px;
-    color: darkblue;
-}
+
 
 table{
     border: 1px solid brown;
@@ -29,15 +24,12 @@ td{
     color: skyblue;
     padding: 10px;
 }
-img{
-    border: 5px solid brown;
-}
 
-h1,h2,h3,h4{
-    color: navy;
+
+
 }
-img{
+img-normal{
     border: 5px solid green;
     max-width: 150px;
-    border-radius: 50%;
+    border-radius: 20%;
 }
