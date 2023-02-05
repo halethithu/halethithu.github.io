@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
+   
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
@@ -40,12 +41,8 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -65,7 +62,7 @@
           <h3>Data Visualization - Power BI</h3>
           <img src="MoviesBI.png" class="img-responsive" style="width:100%" alt="Image">
           <p>
-            <br><br>
+            
             Analyse and visualize data using Power BI. <br>
              Interactive report allow user to slice by dimensions.<br>
              Dataset about movies from Kaggle.com.
@@ -74,21 +71,24 @@
         <div class="col-sm-3"> 
           <h3>Data Reporting - SSRS</h3>
           <img src="SSRS_Alt.png" class="img-responsive" style="width:100%" alt="Image">
-          <p>Data Visualization using SQL-base platfrom: SQL Server Reporting Service. <br>
+          <p>
+            <br><br>Data Visualization using SSRS. <br>
             Interactive report allow user to slice and drill down by each dimension.
         Movies dataset from Kaggle.com.</p>
         </div>
         <div class="col-sm-3"> 
           <h3>Database Design - SSMS</h3>
           <img src="SSMS.png" class="img-responsive" style="width:100%" alt="Image">
-          <p>Building data model using SSMS, follow Kimball method. <br>
+          <p><br>
+            Building data model using SSMS, Kimball method. <br>
             Star schema with Fact as Dimension Tables.<br>
             Dataset about UK traffic. </p>
         </div>
         <div class="col-sm-3">
           <h3>ETL - SSIS</h3>
           <img src="SSIS.png" class="img-responsive" style="width:100%" alt="Image">
-          <p>ETL data from csv file using SSIS via Visual Studio.<br>
+          <p> <br>
+            ETL data from csv file using SSIS via Visual Studio.<br>
             Building data mart using Kimball method.<br>
             Dataset about UK traffic.
          </p>
@@ -96,33 +96,33 @@
       </div>
     </div><br>
 
-    <div class="container-fluid bg-3 text-center">    
-        <h2>About Me</h2><br>
+    <div class="container-fluid bg-3 text-center"> 
+        <div id = "about-me"></div>   
+        <h2>About Me</h2>
+        <img src="IMG_7107.jpg" alt="My photo" width="250">
     </div>
-   
-    <div class="img-normal">
-            <img src="IMG_7107.jpg" class="img-normal">
-    </div><br>
-
+<br>
     <div class="container-fluid bg-3 text-center">     
-            <p>I love to have something new to learn everyday, enjoy nature and have can-do attitute.
+            <p>I love to have something new to learn everyday, enjoy nature.
             <br>I graduated in Health Science. I've been working in marketing and business management for nearly 15 years.
             <br> Those background give me a great foundation when I started to explore the field of Data Science and Business Anylytics.
             <br> Looking forward to see how can I apply all of my new skill sets and contribute for the community.</p>
         
-    </div><br> 
-
+    </div>
+</div>
 </div>
 
 <div class="container-fluid bg-3 text-center">    
     <h2>My Goal</h2><br>
-    <p> My goal is to be able to learn and apply my knowledge and skills in Data Science
-        <br> to solve real business problems within my work by the end of Sep 2023. </p> <br>
-</div><br>
+    <h4> My goal is to learn and apply my knowledge and skills in Data Science to solve real business problems by the end of Sep 2023. </h4> <br>
+</div>
 
-<div class="container-fluid bg-3 text-center">  
+
     <div id="tableDiv">
         <table>
+            <tr>
+                <th colspan="2">How my goal SMART</th>
+              </tr>
             <tr>
                 <td class="smartgoals">Specific</td>
                 <td>It's about applying my knowledge and skills in Data Science.</td>
@@ -146,9 +146,43 @@
             
         </table>
     </div>
-</div><br>
 
-    <div class="container-fluid bg-3 text-center">    
+<style>
+    /* Add table format */ 
+table{
+    width: 60%;
+    margin-left: auto;
+  margin-right: auto;
+  border: 1px solid brown;
+  background: white;
+  
+}
+
+th,tr,td{
+height: 30px;
+  border: 1px solid brown;
+  padding-left: 5%;
+}
+
+.smartgoals{
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+#tableDiv{  
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+ </style>
+
+    <div class="container-fluid bg-3 text-center">  
+        <div id = "Contact"></div>    
         <h2>Contact</h2><br>
         <address>
             Helen Le
